@@ -1,4 +1,4 @@
-[AnimeDTV][1] - CDN for AnimeDescarga, Project
+[DelivrContent][1] - CDN Project dedicated for websites and apps
 ========
 Similar to Google Hosted Libraries, delivrcontent is a [CDN][2] project powered by [CloudFlare][3]
 
