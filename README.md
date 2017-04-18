@@ -28,8 +28,6 @@ Example: `https://cdn.delivrcontent.ml/js/jquery.js`
 
 Notes:
 ------
-The site [DelivrContent][1] is a website Spanish non English
-
 It is possible to recognize that the domain is not .com if not .ml
 
 This Readme is being edited it is possible that you see errors in English since it is translated with Google Translate.
