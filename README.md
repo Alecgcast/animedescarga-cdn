@@ -1,4 +1,4 @@
-[AnimeDescarga][1] - CDN Secure dedicated to Website AnimeDescarga
+[AnimeDescarga][1] - CDN Secure dedicated to this website
 ========
 Similar to Google Hosted Libraries, animeDescarga-cdn is a [CDN][2] project powered by [CloudFlare][3]
 
