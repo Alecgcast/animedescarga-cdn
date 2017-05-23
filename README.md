@@ -1,8 +1,8 @@
-[DelivrContent][1] - CDN Project dedicated for websites and apps
+[AnimeDescarga][1] - CDN Secure dedicated to Website AnimeDescarga
 ========
-Similar to Google Hosted Libraries, delivrcontent is a [CDN][2] project powered by [CloudFlare][3]
+Similar to Google Hosted Libraries, animeDescarga-cdn is a [CDN][2] project powered by [CloudFlare][3]
 
-DelivrContent, NET is an Advanced projects whose purpose is to provide a free web storage system
+AnimeDescarga, NET is an Advanced projects whose purpose is to provide a free web storage system
 
 Some of the files here are not allowed for use on other websites unless you have a permission from the creator, although most are free use and do not require permission to use
 
@@ -14,17 +14,24 @@ URL Structure:
 --------------
 
 Typical usage:
-`//cdn.delivrcontent.ml/*/*.js and other`
+`//scdn-ssl.animedescarga.ml/*../*.js and other`
 
 It is necessary that if the file to use is in a folder you must write the name next to the directory in which it is located:
-`//cdn.delivrcontent.ml/{type}/{file}`
+`//scdn-ssl.animedescarga.ml/public/assets/{vendor}/{version}/{type}/{file}`
 
-Example: `//cdn.delivrcontent.ml/js/jquery.js`
+Example: `//scdn-ssl.animedescarga.ml/public/assets/revslider/v2/css/settings.css`
 
 Thanks to [CloudFlare][3] it is possible to use HTTPS security on files using their servers as protection
-`https://cdn.delivrcontent.ml/{type}/{file}`
+`https://scdn-ssl.animedescarga.ml/public/assets/{vendor}/{version}/{type}/{file}`
 
-Example: `https://cdn.delivrcontent.ml/js/jquery.js`
+Example: `https://scdn-ssl.animedescarga.ml/public/assets/revslider/v2/css/settings.css`
+
+Private Usage:
+`//scdn-ssl.animedescarga.ml/priv/assets/{vendor}/{version}/{privatephp}/{type}/{file}#token_{key}`
+
+Example: `//scdn-ssl.animedescarga.ml/priv/assets/icomoon/v1/rgHc.php#ssl1/css/icomoon.css#token_uAch7VzFg...`
+
+Note: This is an example, what is mentioned above is not a real file or source folder, this is shown only for an example.
 
 Notes:
 ------
@@ -33,6 +40,6 @@ It is possible to recognize that the domain is not .com if not .ml
 This Readme is being edited it is possible that you see errors in English since it is translated with Google Translate.
 
 
-  [1]: http://delivrcontent.ml
+  [1]: http://animedescarga.ml
   [2]: http://en.wikipedia.org/wiki/Content_delivery_network
   [3]: http://www.cloudflare.com/
